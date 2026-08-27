@@ -1,0 +1,52 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_output/
+
+# Strip notebook outputs (use nbstripout or pre-commit hook)
+# To auto-clear outputs before commit:
+#   pip install nbstripout && nbstripout --install
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / logs
+*.log
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.joblib
+
+# Misc
+*.bak
+*.tmp
